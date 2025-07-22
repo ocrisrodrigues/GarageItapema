@@ -20,10 +20,19 @@ git push -u origin main
 1. Acesse [vercel.com](https://vercel.com) 
 2. **New Project** → **Import Git Repository**
 3. Selecione seu repositório
-4. **Deploy** (automático!)
+4. Configurações automáticas detectadas:
+   - ✅ **Framework**: Vite
+   - ✅ **Build Command**: `npm run build`  
+   - ✅ **Output Directory**: `dist`
+5. **Deploy** (automático!)
 
 ### 3. Resultado
 ✅ Site online em: `https://itapema-garage-eventos.vercel.app`
+
+## ✅ **Problema Resolvido**
+- Removida configuração de functions desnecessária
+- Arquivo `vercel.json` corrigido para SPA
+- Estrutura otimizada para deploy frontend
 
 ---
 
