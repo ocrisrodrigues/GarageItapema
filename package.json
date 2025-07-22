@@ -1,0 +1,46 @@
+{
+  "name": "itapema-garage-eventos",
+  "version": "1.0.0",
+  "description": "Plataforma de eventos automotivos da Itapema Garage",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview",
+    "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.20.1",
+    "lucide-react": "^0.300.0",
+    "recharts": "^2.8.0",
+    "sonner": "2.0.3",
+    "react-hook-form": "7.55.0",
+    "react-slick": "^0.30.2",
+    "react-responsive-masonry": "^2.1.7",
+    "react-dnd": "^16.0.1",
+    "react-dnd-html5-backend": "^16.0.1",
+    "framer-motion": "^10.16.16",
+    "re-resizable": "^6.9.11"
+  },
+  "devDependencies": {
+    "@types/react": "^18.2.43",
+    "@types/react-dom": "^18.2.17",
+    "@vitejs/plugin-react": "^4.2.1",
+    "typescript": "^5.2.2",
+    "vite": "^5.0.8",
+    "tailwindcss": "^4.0.0",
+    "@tailwindcss/vite": "^4.0.0"
+  },
+  "keywords": [
+    "eventos",
+    "automotivos",
+    "carros-classicos",
+    "itapema",
+    "garage",
+    "encontros"
+  ],
+  "author": "Itapema Garage Eventos Automotivos",
+  "license": "MIT"
+}
