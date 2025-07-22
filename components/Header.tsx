@@ -2,7 +2,7 @@ import { Button } from "./ui/button";
 import { Menu, X } from "lucide-react";
 import { useState } from "react";
 import { Link, useLocation } from "react-router-dom";
-import logoImage from 'figma:asset/abbebfc4a22782e5c6a75e09d156ed90d5b6c022.png';
+import { ImageWithFallback } from "./figma/ImageWithFallback";
 
 export function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -16,8 +16,8 @@ export function Header() {
         <div className="flex justify-between items-center h-16">
           {/* Logo */}
           <Link to="/" className="flex items-center space-x-3">
-            <img 
-              src={logoImage}
+            <ImageWithFallback 
+              src="https://images.unsplash.com/photo-1599305445671-ac291c95aaa9?w=100&h=100&fit=crop&crop=center"
               alt="Itapema Garage - Mecânica & Man Cave" 
               className="h-12 w-12 object-cover rounded-full"
             />
