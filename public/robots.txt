@@ -1,0 +1,10 @@
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://itapemagarage.com.br/sitemap.xml
+
+# Otimizações para SEO
+Disallow: /admin
+Disallow: /_redirects
+Disallow: /*.json$

@@ -1,0 +1,19 @@
+{
+  "name": "Itapema Garage Eventos Automotivos",
+  "short_name": "Itapema Garage",
+  "description": "A maior comunidade de carros clássicos da região",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#030213",
+  "theme_color": "#030213",
+  "icons": [
+    {
+      "src": "/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ],
+  "categories": ["automotive", "events", "community"],
+  "lang": "pt-BR"
+}
